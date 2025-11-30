@@ -18,7 +18,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('../img/back.jpg');
+    background-image: url('/img/bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -150,13 +150,14 @@ img {
     color: var(--blanco);
     display: flex;
     align-items: center;
+    padding: 1rem;
+    column-gap: 2rem;
 }
 
 .red__foto {
     border-radius: 50rem;
     width: 6rem;
     border: 1px solid var(--blanco);
-    margin: .8rem;
 }
 
 
